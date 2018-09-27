@@ -1,0 +1,204 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5tahoma, arial, \5b8b\4f53; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace; }
+
+small {
+  font-size: 12px; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+legend {
+  color: #000; }
+
+fieldset, img {
+  border: 0; }
+
+button, input, select, textarea {
+  font-size: 100%; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  margin: 0;
+  padding: 0; }
+
+body {
+  padding: 0 0.2rem;
+  box-sizing: border-box; }
+
+header {
+  width: 100%; }
+  header img {
+    width: 100%; }
+
+.rect {
+  width: 100%;
+  height: 1.44rem;
+  background: linear-gradient(to left, #019708, #019708) left top no-repeat, linear-gradient(to bottom, #019708, #019708) left top no-repeat, linear-gradient(to left, #019708, #019708) right bottom no-repeat, linear-gradient(to left, #019708, #019708) right bottom no-repeat;
+  background-size: 0.0533333333rem 1.2rem, 1.2rem 0.0533333333rem, 0.0533333333rem 1.2rem, 1.2rem 0.0533333333rem;
+  font-size: 0.3733333333rem;
+  color: #019708;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
+.imgs {
+  width: 100%; }
+
+.title {
+  width: 100%;
+  height: 0.9333333333rem;
+  font-size: 0.64rem;
+  color: #383838;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.find {
+  width: 100%;
+  height: 6.1333333333rem;
+  font-size: 0.4rem;
+  margin-top: 0.5333333333rem;
+  text-align: justify; }
+  .find p {
+    text-indent: 0.8rem;
+    line-height: 0.6666666667rem; }
+    .find p span {
+      color: #019708; }
+
+.Contrast {
+  width: 100%;
+  height: 0.8rem;
+  background: #019708;
+  font-size: 0.4rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3333333333rem 0; }
+
+.Contrast1 {
+  width: 100%;
+  height: 16.2666666667rem;
+  font-size: 0.48rem;
+  font-weight: 600; }
+  .Contrast1 img {
+    width: 100%; }
+  .Contrast1 span {
+    width: 0.9333333333rem;
+    height: 0.9333333333rem;
+    display: inline-block;
+    background: #019708;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 0.9333333333rem; }
+  .Contrast1 p {
+    font-weight: normal;
+    font-size: 0.4rem;
+    text-align: justify; }
+
+.Contrast2 {
+  width: 100%;
+  height: 1.6rem;
+  background: #019708;
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.8rem; }
+  .Contrast2 span {
+    color: #fcff26; }
+
+.Research {
+  width: 100%;
+  height: 2.4rem;
+  font-size: 0.4rem;
+  color: #222;
+  text-indent: 0.8rem;
+  text-align: justify; }
+
+.Remember {
+  width: 100%;
+  height: 2.4rem;
+  background: #019708;
+  color: #fff;
+  font-size: 0.4rem;
+  text-indent: 0.8rem;
+  padding: 0.2666666667rem 0.4666666667rem;
+  box-sizing: border-box;
+  line-height: 0.6666666667rem; }
+  .Remember span {
+    color: #fcff26; }
+
+ol {
+  width: 100%;
+  padding: 0 0.2666666667rem;
+  box-sizing: border-box;
+  margin-top: 0.6666666667rem; }
+  ol li {
+    padding: 0 0.2666666667rem;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #dedede; }
+    ol li div:nth-child(1) {
+      width: 0.9333333333rem;
+      height: 100%;
+      display: flex;
+      margin-right: 0.3333333333rem; }
+      ol li div:nth-child(1) img {
+        width: 1.0666666667rem;
+        height: 0.9333333333rem;
+        margin-top: 0.2666666667rem;
+        display: inline-block;
+        border-radius: 50%; }
+    ol li div:nth-child(2) {
+      width: 8.5333333333rem;
+      height: 100%; }
+      ol li div:nth-child(2) p:nth-child(1) {
+        font-size: 0.4rem;
+        margin-top: 0.2rem;
+        color: #124da3; }
+      ol li div:nth-child(2) p:nth-child(2) {
+        font-size: 0.4rem;
+        color: #4d4d4d;
+        margin-bottom: 0.2666666667rem; }
+      ol li div:nth-child(2) div {
+        font-size: 0.2666666667rem;
+        color: #b2b9c4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -0.1333333333rem;
+        margin-bottom: 0.2666666667rem; }
+        ol li div:nth-child(2) div img {
+          width: 0.5333333333rem;
+          height: 0.5333333333rem;
+          vertical-align: bottom; }
+
+/*# sourceMappingURL=index.css.map */
